@@ -28,6 +28,21 @@ Videospheres are a large sphere with the video texture mapped to the inside.
 </a-scene>
 ```
 
+
+[mozilla-htmlmediaelement]: https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement
+
+Further asset controls are inherited from [HTML Media Element][mozilla-htmlmediaelement].
+
+```javascript
+
+//to play a video, where .play() function is inherited from HTMLMediaElement
+document.querySelector("#antarctica").play()
+
+//to pause a video, where .pause() function is inherited from HTMLMediaElement
+document.querySelector("#antarctica").pause()
+
+```
+
 ## Attributes
 
 Note that the videosphere primitive inherits [common attributes](./common-attributes.md).
